@@ -9,6 +9,15 @@ Here we have developed a transformer encoder followed by two joint transformer d
 
 <img src="Transformer.PNG" alt="Transformer_for_TOD">
 
+## Dataset processing
+After processing the MultiWoZ dataset we have got that each dialogue turn will be represented as a sequence, which contains previous user/system turns, belief, action, and delexicalized response :
+
+```
+<|endoftext|> <|context|> <|user|> i am looking for a college type attraction . <|system|> there are 18 colleges i have found , would you prefer 1 in town centre or in the west ? <|user|> i would like to visit on in town centre please . <|system|> sure , we have thirteen options , 10 of which are free . may i suggest king s college , or hughes hall ? <|user|> okay , may i have their postcode , entrance fee , and phone number ?<|endofcontext|> 
+<|belief|> attraction type college , attraction name kings college|hughes hall , attraction area centre <|endofbelief|> 
+<|action|> attraction inform name , attraction inform fee , attraction inform post , attraction inform phone <|endofaction|>
+ 
+```
 
 <h3>Results for Train and Validation data</h3>
 <div class="datagrid" style="width:500px;">
