@@ -1,4 +1,13 @@
-﻿# TransformerDialog_ArnabM
+﻿# Introduction
+Task-oriented dialogue (TOD) systems accomplish a goal described 
+by a user in natural language. They often use a pipeline approach. 
+Such approach requires natural language understanding (NLU) for belief state tracking, 
+dialogue management (DM) for deciding which actions to take based on those beliefs, 
+and natural language generation (NLG) for generating responses.
+
+Here we have developed a transformer encoder followed by two joint transformer decoders, for predicting the actions and beliefs corresponding to a given input sequence. The metric for evaluation of the model for action prediction is precision and recall and for belief prediction is joint accuracy and slot accuracy. This approach improved the accuracy as compared to the previous single decoder based action and belief prediction approach. The architecture of the model is shown below :
+
+<img src="Transformer.PNG" alt="Transformer_for_TOD">
 
 
 <h3>Results for Train and Validation data</h3>
