@@ -73,6 +73,8 @@ Sample result dataset contaning context , predicted belief states , target belie
 </div>
 
 <h2>Text Results Obtained</h2>
+Some of the text results obtained from the model is shown below,
+
 <h3>Context</h3>
 
 <|context|> <|user|> i want to find a moderate -ly priced restaurant . <|system|> i have many options available for you ! is there a certain area or cuisine that interests you ? <|user|> yes i would like the restaurant to be located in the center of the attractions .<|endofcontext|>
