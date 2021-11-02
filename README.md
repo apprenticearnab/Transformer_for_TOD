@@ -91,3 +91,7 @@ Some of the text results obtained from the model is shown below,
 <img src="Joint_acc.PNG" alt="Joint Accuracy">
 <img src="F1_score.PNG" alt="F1_Score">
 <img src="Slt_acc.PNG" alt="Slot Accuracy">
+
+<h2>References</h2>
+<li><a href="https://arxiv.org/abs/2005.00796"> SimpleTOD paper</a></li>
+<li><a href="https://arxiv.org/abs/1706.03762"> Attention Is All You Need paper</a></li>
