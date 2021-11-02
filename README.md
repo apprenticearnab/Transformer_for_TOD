@@ -87,7 +87,7 @@ Some of the text results obtained from the model is shown below,
 
 <|action|> restaurant request food , restaurant inform choice , restaurant inform area <|endofaction|>
 
-
+<h2>Plots</h2>
 <img src="Joint_acc.PNG" alt="Joint Accuracy">
 <img src="F1_score.PNG" alt="F1_Score">
 <img src="Slt_acc.PNG" alt="Slot Accuracy">
