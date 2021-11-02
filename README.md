@@ -85,14 +85,6 @@ Sample result dataset contaning context , predicted belief states , target belie
 
 <|action|> restaurant request food , restaurant inform choice , restaurant inform area <|endofaction|>
 
-<h3>Target Belief</h3>
-
-<|belief|> restaurant pricerange moderate , restaurant area centre <|endofbelief|>
-
-<h3>Target Action</h3>
-
-<|action|> restaurant request food , restaurant inform choice , restaurant inform area <|endofaction|>
-
 
 <img src="Joint_acc.PNG" alt="Joint Accuracy">
 <img src="F1_score.PNG" alt="F1_Score">
