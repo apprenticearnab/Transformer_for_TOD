@@ -7,7 +7,11 @@ Such approach requires natural language understanding (NLU) for belief state tra
 dialogue management (DM) for deciding which actions to take based on those beliefs, 
 and natural language generation (NLG) for generating responses.
 
-Here we have developed a transformer encoder followed by two joint transformer decoders, for predicting the actions and beliefs corresponding to a given input sequence. The metric for evaluation of the model for action prediction is precision and recall and for belief prediction is joint accuracy and slot accuracy. This approach improved the accuracy as compared to the previous single decoder based action and belief prediction approach. The architecture of the model is shown below :
+ Transformer for TOD uses the Transformer encoders and decoders to generate all outputs given the dialogue context and retrieved database search results. The delexicalized response can then be lexicalized into a human-readable response by using information from the belief state and DB search results.The flow chart of the system is shown below,
+
+ <img src="TOD_final.PNG" alt="Transformer_for_TOD_flow_chart">
+
+ Transformer fot TOD consists of a single transformer encoder followed by two joint transformer decoders, for predicting the actions and beliefs corresponding to a given dialogue context provided by the user.The metric for evaluation of the model for action prediction is precision and recall and for belief prediction is joint accuracy and slot accuracy. This approach improved the accuracy as compared to the previous single decoder based action and belief prediction approach. The architecture of the model is shown below :
 
 <img src="Transformer.PNG" alt="Transformer_for_TOD">
 
@@ -56,7 +60,7 @@ Sample result dataset contaning context , predicted belief states , target belie
 <h1>Results for Joint Belief and Action Prediction Model</h1>
 
 <h2>Table for Test data</h2>
-<h3>Belief and Action Tracking</h3>
+<h3>Joint Belief and Action Tracking</h3>
 <div class="datagrid" style="width:500px;">
 <table>
 <thead><tr><th></th><th colspan="5">MultiWOZ 2.1</th></tr></thead>
