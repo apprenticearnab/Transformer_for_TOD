@@ -9,7 +9,7 @@ and natural language generation (NLG) for generating responses.
 
  Transformer for TOD uses the Transformer encoders and decoders to generate all outputs given the dialogue context and retrieved database search results. The delexicalized response can then be lexicalized into a human-readable response by using information from the belief state and DB search results.The flow chart of the system is shown below,
 
- <img src="TOD_final.PNG" alt="Transformer_for_TOD_flow_chart">
+ <img src="TOD_final.png" alt="Transformer_for_TOD_flow_chart">
 
  Transformer fot TOD consists of a single transformer encoder followed by two joint transformer decoders, for predicting the actions and beliefs corresponding to a given dialogue context provided by the user.The metric for evaluation of the model for action prediction is precision and recall and for belief prediction is joint accuracy and slot accuracy. This approach improved the accuracy as compared to the previous single decoder based action and belief prediction approach. The architecture of the model is shown below :
 
