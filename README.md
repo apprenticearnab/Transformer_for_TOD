@@ -59,6 +59,7 @@ Sample result dataset contaning context , predicted belief states , target belie
 
 <h1>Results for Joint Belief and Action Prediction Model</h1>
 
+
 <h2>Table for Test data</h2>
 <h3>Joint Belief and Action Tracking</h3>
 <div class="datagrid" style="width:500px;">
@@ -70,6 +71,28 @@ Sample result dataset contaning context , predicted belief states , target belie
 </tbody>
 </table>
 </div>
+
+<h2>Text Results Obtained</h2>
+<h3>Context</h3>
+
+<|context|> <|user|> i want to find a moderate -ly priced restaurant . <|system|> i have many options available for you ! is there a certain area or cuisine that interests you ? <|user|> yes i would like the restaurant to be located in the center of the attractions .<|endofcontext|>
+
+<h3>Predicted Belief</h3>
+
+<|belief|> restaurant pricerange moderate , restaurant area centre <|endofbelief|>
+
+<h3>Predicted Action</h3>
+
+<|action|> restaurant request food , restaurant inform choice , restaurant inform area <|endofaction|>
+
+<h3>Target Belief</h3>
+
+<|belief|> restaurant pricerange moderate , restaurant area centre <|endofbelief|>
+
+<h3>Target Action</h3>
+
+<|action|> restaurant request food , restaurant inform choice , restaurant inform area <|endofaction|>
+
 
 <img src="Joint_acc.PNG" alt="Joint Accuracy">
 <img src="F1_score.PNG" alt="F1_Score">
